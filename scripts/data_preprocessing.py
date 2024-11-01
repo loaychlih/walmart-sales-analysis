@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_and_preprocess_data(filepath):
-    # Load the dataset
+    # Load dataset
     df = pd.read_csv(filepath)
 
     # Convert Date column to datetime format
